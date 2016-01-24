@@ -1,0 +1,73 @@
+[2016-01-24 11:25:45,335][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-01-24 11:25:46,292][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-01-24 11:25:46,293][INFO][codenames.config] 
+-=[codenames started successfully using the development profile]=-
+[2016-01-24 11:25:46,327][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-01-24 11:25:46,401][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-01-24 11:25:46,452][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-01-24 11:25:46,453][INFO][luminus.http-server] server started on port 3000
+[2016-01-24 11:32:40,268][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-01-24 11:32:41,261][INFO][migratus.core] Starting migrations
+[2016-01-24 11:32:41,393][INFO][migratus.database] creating migration table 'schema_migrations'
+[2016-01-24 11:32:41,410][INFO][migratus.core] Running up for [20160124112249]
+[2016-01-24 11:32:41,411][INFO][migratus.core] Up 20160124112249-add-users-table
+[2016-01-24 11:32:41,413][DEBUG][migratus.database] found 1 up migrations
+[2016-01-24 11:32:41,415][DEBUG][migratus.database] marking 20160124112249 complete
+[2016-01-24 11:32:41,420][INFO][migratus.core] Ending migrations
+[2016-01-24 11:34:27,377][INFO][luminus.repl-server] nREPL server stopped
+[2016-01-24 11:34:27,378][INFO][codenames.handler] codenames is shutting down...
+[2016-01-24 11:34:27,378][INFO][codenames.handler] shutdown complete!
+[2016-01-24 11:34:27,379][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-01-24 11:34:27,383][INFO][luminus.http-server] HTTP server stopped
+[2016-01-24 11:35:30,282][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-01-24 11:35:31,208][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-01-24 11:35:31,208][INFO][codenames.config] 
+-=[codenames started successfully using the development profile]=-
+[2016-01-24 11:35:31,241][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-01-24 11:35:31,285][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-01-24 11:35:31,335][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-01-24 11:35:31,336][INFO][luminus.http-server] server started on port 3000
+[2016-01-24 13:17:09,674][INFO][luminus.repl-server] nREPL server stopped
+[2016-01-24 13:17:09,675][INFO][codenames.handler] codenames is shutting down...
+[2016-01-24 13:17:09,675][INFO][codenames.handler] shutdown complete!
+[2016-01-24 13:17:09,676][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-01-24 13:17:09,683][INFO][luminus.http-server] HTTP server stopped
+[2016-01-24 13:18:04,018][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-01-24 13:18:05,258][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-01-24 13:18:05,259][INFO][codenames.config] 
+-=[codenames started successfully using the development profile]=-
+[2016-01-24 13:18:05,300][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-01-24 13:18:05,357][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-01-24 13:18:05,412][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-01-24 13:18:05,413][INFO][luminus.http-server] server started on port 3000
+[2016-01-24 13:38:08,331][INFO][luminus.repl-server] nREPL server stopped
+[2016-01-24 13:38:08,334][INFO][codenames.handler] codenames is shutting down...
+[2016-01-24 13:38:08,335][INFO][codenames.handler] shutdown complete!
+[2016-01-24 13:38:08,338][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-01-24 13:38:08,353][INFO][luminus.http-server] HTTP server stopped
+[2016-01-24 13:45:42,796][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-01-24 13:45:43,696][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-01-24 13:45:43,697][INFO][codenames.config] 
+-=[codenames started successfully using the development profile]=-
+[2016-01-24 13:45:43,730][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-01-24 13:45:43,777][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-01-24 13:45:43,817][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-01-24 13:45:43,819][INFO][luminus.http-server] server started on port 3000
+[2016-01-24 14:07:59,148][INFO][luminus.repl-server] nREPL server stopped
+[2016-01-24 14:07:59,149][INFO][codenames.handler] codenames is shutting down...
+[2016-01-24 14:07:59,150][INFO][codenames.handler] shutdown complete!
+[2016-01-24 14:07:59,150][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-01-24 14:07:59,155][INFO][luminus.http-server] HTTP server stopped
+[2016-01-24 14:08:08,442][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-01-24 14:08:09,447][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-01-24 14:08:09,448][INFO][codenames.config] 
+-=[codenames started successfully using the development profile]=-
+[2016-01-24 14:08:09,482][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-01-24 14:08:09,539][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-01-24 14:08:09,597][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-01-24 14:08:09,598][INFO][luminus.http-server] server started on port 3000
+[2016-01-24 14:08:35,110][INFO][luminus.repl-server] nREPL server stopped
+[2016-01-24 14:08:35,111][INFO][codenames.handler] codenames is shutting down...
+[2016-01-24 14:08:35,111][INFO][codenames.handler] shutdown complete!
+[2016-01-24 14:08:35,112][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-01-24 14:08:35,120][INFO][luminus.http-server] HTTP server stopped

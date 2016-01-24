@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="container-fluid">
+    <table style="width:100%">
+      {{board}}
+    </table>
+  </div>
+{% endblock %}
+
