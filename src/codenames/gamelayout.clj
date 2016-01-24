@@ -3,20 +3,22 @@
             [clojure.string :as strings]))
 
 (defn spymaster-view-columns [game-state]
-  (let [bystanders (map :name (:bystanders @game-state))
-        reds (map :name (:red-agents @game-state))
-        blues (map :name (:blue-agents @game-state))
-        assassin (map :name (:assassin @game-state))
-        agents (map :name (:agents @game-state))
+  (let [bystanders (:bystanders @game-state)
+        reds (:red-agents @game-state)
+        blues (:blue-agents @game-state)
+        assassin (:assassin @game-state)
+        agents (:agents @game-state)
         start-elem (fn [bg-clr txt-clr] (str "<td style=\"background-color:" bg-clr ";color:" txt-clr ";text-align:center\">"))]
-           (for [agent agents]
-             (if (some #{agent} bystanders)
-               (str (start-elem "grey" "black") agent "</td>")
-               (if (some #{agent} assassin)
-                 (str (start-elem "black" "white") agent "</td>")
-                 (if (some #{agent} reds)
-                   (str (start-elem "red" "white") agent "</td>")
-                   (str (start-elem "blue" "white") agent "</td>")))))))
+    (for [agent agents]
+      (let [agt-nm (:name agent)
+            agt-dsply (if (:flipped? agent) "**********" agt-nm)]
+        (if (some #{agt-nm} (map :name bystanders))
+          (str (start-elem "grey" "black") agt-dsply "</td>")
+               (if (some #{agt-nm} (map :name assassin))
+                 (str (start-elem "black" "white") agt-dsply "</td>")
+                 (if (some #{agt-nm} (map :name reds))
+                   (str (start-elem "red" "white") agt-dsply "</td>")
+                   (str (start-elem "blue" "white") agt-dsply "</td>"))))))))
 
 (defn spymaster-view [game-state num-cols]
   (let [columns (codenames.gamelayout/spymaster-view-columns game-state)]
@@ -28,6 +30,7 @@
       (str "<table style=\"width:100%;height:500px\">" (apply str (addrows columns)) "</table>"))))
 
 
-
-(def game-state (game/new-game))
-(spymaster-view game-state 5)
+(comment
+  (def game-state (game/new-game))
+  (spymaster-view game-state 5)
+)
